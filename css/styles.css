@@ -1,0 +1,205 @@
+body {
+  color: #757575;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --main-accent-color: #2196f3;
+  --headers-nav-color: #212121;
+  --main-p-color: #757575;
+  --logo-color: #000000;
+  --bcg-section: #2f303a;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --white-color: #ffffff;
+}
+
+/* Logo-style */
+.logo-link {
+  font-family: 'RaleWay', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-link > .logo-web {
+  color: var(--main-accent-color);
+}
+.logo-link > .logo-studio {
+  color: var(--logo-color);
+}
+.logo-link > .logo-studio-footer {
+  color: var(--white-color);
+}
+
+/* index-section: Head-navigation + contacts */
+.head-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--headers-nav-color);
+  list-style: none;
+  letter-spacing: 0.02em;
+}
+.head-nav-link {
+  color: var(--headers-nav-color);
+  text-decoration: none;
+}
+.head-nav-link:hover,
+.head-nav-link:focus {
+  color: var(--main-accent-color);
+}
+.head-contact {
+  color: var(--main-p-color);
+  text-decoration: none;
+}
+.head-contact:hover,
+.head-contact:focus {
+  color: var(--main-accent-color);
+}
+.current {
+  color: var(--main-accent-color);
+}
+/* index-section: EFFECTIVE solutions */
+.effective {
+  background-color: var(--bcg-section);
+}
+.effective-h {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.effective-btn {
+  background: var(--main-accent-color);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.effective-btn-text {
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* index-section: FEATURES */
+.features-h-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-h {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--headers-nav-color);
+}
+.features-p {
+  line-height: 1.71;
+}
+.features-list {
+  list-style: none;
+}
+/* index-section: our-work */
+.our-work-h {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--headers-nav-color);
+}
+.our-work-list {
+  list-style: none;
+}
+/* index-section: team */
+.team-h {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--headers-nav-color);
+}
+.team-list-h {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--headers-nav-color);
+}
+.team-list-p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-list {
+  list-style: none;
+}
+/* index-footer */
+.footer {
+  background-color: var(--bcg-section);
+}
+.footer-address {
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer-list {
+  list-style: none;
+}
+.footer-contact {
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--footer-contact-color);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--main-accent-color);
+}
+
+/* portfolio-section: main-section, not "main" */
+.btn-list {
+  list-style: none;
+}
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--headers-nav-color);
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: var(--white-color);
+  background-color: var(--main-accent-color);
+  cursor: pointer;
+}
+/* portfolio-section: list portfolio */
+.portf-list {
+  list-style: none;
+}
+.portf-h {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--headers-nav-color);
+}
+.portf-p {
+  font-size: 16px;
+  line-height: 1.88;
+}
