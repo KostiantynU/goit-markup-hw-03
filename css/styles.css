@@ -268,7 +268,6 @@ h5 {
 }
 .footer-contact {
   line-height: 1.71;
-  font-style: normal;
   color: var(--footer-contact-color);
 }
 .footer-contact:hover,
@@ -281,6 +280,7 @@ h5 {
 
 /* portfolio-section: main-section, not "main" */
 .header {
+  
   border-bottom: 1px solid #ececec;
 }
 .btn {
