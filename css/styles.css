@@ -334,9 +334,11 @@ h5 {
   color: var(--headers-nav-color);
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 .portf-p {
   font-size: 16px;
   line-height: 1.88;
+  margin-left: 24px;
 }
 /* portfolio: footer */
