@@ -26,6 +26,8 @@ body {
 }
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 1200px;
@@ -243,6 +245,7 @@ h5 {
   color: var(--headers-nav-color);
 }
 .team-list-p {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
