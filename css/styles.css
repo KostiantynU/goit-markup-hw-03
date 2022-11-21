@@ -78,14 +78,18 @@ h5 {
 .head-nav {
   display: flex;
   margin-left: 93px;
+  gap: 50px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--headers-nav-color);
   letter-spacing: 0.02em;
 }
-.head-nav > .item {
+/* .head-nav > .item {
   margin-left: 50px;
 }
+.head-nav > .item:first-child {
+  margin-left: 0;
+} */
 .head-nav-link {
   color: var(--headers-nav-color);
   display: block;
@@ -99,10 +103,11 @@ h5 {
 .head-nav-contacts {
   display: flex;
   margin-left: auto;
+  gap: 50px;
 }
-.head-nav-contacts .head-contact:last-child {
+/* .head-nav-contacts > .item:last-child {
   margin-left: 40px;
-}
+} */
 .head-contact {
   color: var(--main-p-color);
   text-decoration: none;
@@ -124,6 +129,7 @@ h5 {
 /* index-section: EFFECTIVE solutions */
 .effective {
   background-color: var(--bcg-section);
+  padding: 200px 0;
 }
 .container-eff {
   text-align: center;
@@ -132,10 +138,9 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 106px;
+  margin-bottom: 40px;
   width: 696px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -148,13 +153,14 @@ h5 {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 106px;
   background: var(--main-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-}
-.effective-btn-text {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
   color: var(--white-color);
   font-size: 16px;
   line-height: 1.88;
@@ -196,6 +202,9 @@ h5 {
   line-height: 1.71;
 }
 /* index-section: our-work */
+.our-work {
+  padding-top: 0;
+}
 .our-work-list {
   display: flex;
 }
@@ -214,21 +223,24 @@ h5 {
   color: var(--headers-nav-color);
 }
 /* index-section: team */
+.team {
+  background-color: #f5f4fa;
+}
 .team-list {
   display: flex;
 }
 .team-list > .item {
   margin-right: 30px;
 }
-.team-list > .item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+.box {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-list > .item:last-child {
   margin-right: 0;
 }
 .team-h {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -236,7 +248,6 @@ h5 {
 }
 .team-list-h {
   display: block;
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -245,7 +256,6 @@ h5 {
   color: var(--headers-nav-color);
 }
 .team-list-p {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -277,10 +287,12 @@ h5 {
 .footer-list > .item {
   margin-bottom: 9px;
 }
+.footer-list > .item:last-child {
+  margin-bottom: 0;
+}
 
 /* portfolio-section: main-section, not "main" */
 .header {
-  
   border-bottom: 1px solid #ececec;
 }
 .btn {
@@ -292,6 +304,7 @@ h5 {
   color: var(--headers-nav-color);
   border-radius: 4px;
   border: 1px solid transparent;
+  padding: 8px 22px;
 }
 .btn:hover,
 .btn:active,
@@ -303,7 +316,7 @@ h5 {
 .btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .btn-list > .item {
   margin-right: 8px;
@@ -317,7 +330,7 @@ h5 {
   flex-wrap: wrap;
 }
 .portf-list > .item {
-  width: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -327,22 +340,24 @@ h5 {
 .portf-list > .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.portf-list > .item {
-  border: 1px solid #eeeeee;
-}
 .portf-h {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--headers-nav-color);
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .portf-p {
   font-size: 16px;
   line-height: 1.88;
-  margin-left: 24px;
-  margin-bottom: 20px;
+}
+.box-portf {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 /* portfolio: footer */
