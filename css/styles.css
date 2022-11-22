@@ -111,6 +111,7 @@ h5 {
 .head-contact {
   color: var(--main-p-color);
   text-decoration: none;
+  font-weight: 500;
 }
 .head-contact:hover,
 .head-contact:focus {
@@ -304,7 +305,7 @@ h5 {
   color: var(--headers-nav-color);
   border-radius: 4px;
   border: 1px solid transparent;
-  padding: 8px 22px;
+  padding: 6px 22px;
 }
 .btn:hover,
 .btn:active,
